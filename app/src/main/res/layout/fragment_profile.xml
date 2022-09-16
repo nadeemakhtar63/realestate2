@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.NavigationScreens.ProfileFragment">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/drawerheaderimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:src="@drawable/img1"
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/drawewrheaderuname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="32dp"
+                android:text="Lesile"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/drawerheaderimage"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.95" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="SETTING"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/drawewrheaderuname" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+        <TextView
+            android:id="@+id/profiletext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Profile"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/profileimage"
+            app:layout_constraintStart_toEndOf="@+id/profileimage"
+            app:layout_constraintTop_toTopOf="@+id/profileimage" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/notificationimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_baseline_notifications_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileimage" />
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Notification"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/notificationimage"
+            app:layout_constraintStart_toEndOf="@+id/notificationimage"
+            app:layout_constraintTop_toTopOf="@+id/notificationimage" />
+        //my ads
+
+        //privicy policy
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/myaddimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_baseline_assignment_late_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/notificationimage" />
+
+        <TextView
+            android:id="@+id/myads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="My Ads"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/myaddimage"
+            app:layout_constraintStart_toEndOf="@+id/myaddimage"
+            app:layout_constraintTop_toTopOf="@+id/myaddimage" />
+
+        //logout
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/priviceyimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_baseline_privacy_tip_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myaddimage" />
+
+        <TextView
+            android:id="@+id/priviceypolicey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Privacy Policy"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/priviceyimage"
+            app:layout_constraintStart_toEndOf="@+id/priviceyimage"
+            app:layout_constraintTop_toTopOf="@+id/priviceyimage" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logoutimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_baseline_exit_to_app_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/priviceyimage" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Log Out"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/logoutimage"
+            app:layout_constraintStart_toEndOf="@+id/logoutimage"
+            app:layout_constraintTop_toTopOf="@+id/logoutimage" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/offerend"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/send_offer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logoutimage" />
+
+        <TextView
+            android:id="@+id/offerendtet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Offer Send"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/offerend"
+            app:layout_constraintStart_toEndOf="@+id/offerend"
+            app:layout_constraintTop_toTopOf="@+id/offerend" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/OfferRecived"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/recived_offer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/offerend" />
+
+        <TextView
+            android:id="@+id/OfferRecivedtet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="Recived Offer"
+            android:textColor="#030303"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@+id/OfferRecived"
+            app:layout_constraintStart_toEndOf="@+id/OfferRecived"
+            app:layout_constraintTop_toTopOf="@+id/OfferRecived" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

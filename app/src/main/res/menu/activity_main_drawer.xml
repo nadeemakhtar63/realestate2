@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/drawerprofile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/drawernotification"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="Notifications" />
+
+        <item
+            android:id="@+id/drawermyads"
+            android:icon="@drawable/ic_baseline_assignment_late_24"
+            android:title="My Ads" />
+        <item
+            android:id="@+id/drawerprivicy"
+            android:icon="@drawable/ic_baseline_privacy_tip_24"
+            android:title="Privacy"/>
+        <item
+            android:id="@+id/drawerlogout"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Logout"/>
+
+        //
+        <item
+            android:id="@+id/sendoffer"
+            android:icon="@drawable/send_offer"
+            android:title="Send Offer"/>
+
+        <item
+            android:id="@+id/reciveoffer"
+            android:icon="@drawable/recived_offer"
+            android:title="Recived Offer"/>
+
+    </group>
+</menu>

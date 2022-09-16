@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.realestate" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Realestate"
+        tools:replace="android:appComponentFactory" >
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBb-YTS_bE3p-4eOJ7yxUVXHS80tcpgj5M" />
+        <activity android:name=".chatmodule.AllUsersActivity"
+            android:exported="false"/>
+        <activity android:name=".chatmodule.ChatActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".OffersScreen"
+            android:exported="false" />
+        <activity
+            android:name=".chatmodule.ConversationActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".GoogleMapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_google_map" />
+        <activity
+            android:name=".multi_locations"
+            android:exported="false"
+            android:label="@string/title_activity_multi_locations" />
+        <activity
+            android:name=".NotificationScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Forget_Password"
+            android:exported="false" />
+        <activity
+            android:name=".Wanted_Property_discover"
+            android:exported="false" />
+        <activity
+            android:name=".offerscreens.Recived_Offer"
+            android:exported="false" />
+        <activity
+            android:name=".offerscreens.Send_Offer"
+            android:exported="false" />
+        <activity
+            android:name=".Buying_Property"
+            android:exported="false" />
+        <activity
+            android:name=".Rental_Property"
+            android:exported="false" />
+        <activity
+            android:name=".Near_by_Property"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsProperty"
+            android:exported="false" />
+        <activity
+            android:name=".FillteredActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Discover"
+            android:exported="false" />
+        <activity
+            android:name=".wantedscreen.WantedScreen"
+            android:exported="false" />
+        <activity
+            android:name=".wantedscreen.WantedScreenReview"
+            android:exported="false" />
+        <activity
+            android:name=".sellerscreen.previopropertyselladd"
+            android:exported="false" />
+        <activity
+            android:name=".sellerscreen.addpropertydetail"
+            android:exported="false" />
+        <activity
+            android:name=".myproperty.MyProperty"
+            android:exported="false" />
+        <activity
+            android:name=".OTPVerifyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeNav"
+            android:exported="false" />
+        <activity
+            android:name=".registersecond"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterScreen"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

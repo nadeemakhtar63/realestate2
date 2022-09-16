@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">realestate</string>
+    <string name="productname1">Permount Home</string>
+    <string name="productname2">Recent Searches</string>
+    <string name="productname3">Duplex Home</string>
+
+    <string name="productlocation1">E 88th St, Evelyn bloomfield</string>
+    <string name="productlocation2">E 88th St, Evelyn bloomfield</string>
+    <string name="productlocation3">E 88th St, Evelyn bloomfield</string>
+    <string name="maps_api_key">AIzaSyBb-YTS_bE3p-4eOJ7yxUVXHS80tcpgj5M</string>
+
+    <string name="productprice1">255.99$</string>
+    <string name="productprice2">240$</string>
+    <string name="productprice3">2340$</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_multi_locations">multi_locations</string>
+    <string name="title_activity_google_map">GoogleMapActivity</string>
+</resources>

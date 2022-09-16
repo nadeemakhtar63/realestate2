@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "662516159789",
+    "project_id": "dewaari-a8fb2",
+    "storage_bucket": "dewaari-a8fb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662516159789:android:c7b8af5a577bca5676afa4",
+        "android_client_info": {
+          "package_name": "com.example.realestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662516159789-ufntcb4kfpjdqekrsju4o97ep1r2fmdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realestate",
+            "certificate_hash": "479817cfab388f95ad8f1081ae92ae6e2bd6a5ee"
+          }
+        },
+        {
+          "client_id": "662516159789-j50bh2v2409j6bmetqe05srshmgvrip5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuOqIhGHjpI5uBZIIJHi_tDcNy2GKqZw0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662516159789-j50bh2v2409j6bmetqe05srshmgvrip5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
